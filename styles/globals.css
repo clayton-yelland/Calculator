@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.backspace{
+  font-family:wingdings;
 }
 
 a {
@@ -20,7 +25,30 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: rgb(255, 255, 255);
     background: black;
   }
+}
+
+button {
+  width: 290px;
+  height: 100px;
+  border-radius: 20px;
+  margin: 2px;
+  color: white;
+  font-size: 36px;
+}
+
+input {
+  width: 1172px;
+  height: 150px;
+  font-size: 100px;
+}
+
+.gray {
+  background-color: rgb(61, 61, 61);
+}
+
+.green {
+  background-color: rgb(0, 92, 0);
 }
