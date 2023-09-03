@@ -17,7 +17,7 @@ describe("Logic", () => {
 
       expect(answer).toStrictEqual("-2468");
     });
-    it("should handle exponential notation if over 9 digits long", () => {
+    it("should return exponential notation if over 9 digits long", () => {
       const answer = add("9000000000", "9000000000");
 
       expect(answer).toStrictEqual("1.8e+10");
